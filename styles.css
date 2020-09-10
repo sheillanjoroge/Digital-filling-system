@@ -3,7 +3,7 @@
   top: 0;
   bottom: 0;
   left: 0;
-  background-image: url('http://bit.ly/2FTO7VA)');
+  background-image: url('https://storage.aanp.org/www/images/shutterstock_79203412.jpg)');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -24,6 +24,7 @@ nav>ul{
 }
 ul>li{
   display: inline-block;
+  flex: auto;
 }
 ul>li>a{
    padding: 3%;
