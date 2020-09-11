@@ -11,6 +11,7 @@
 body{
   font-size: 1.3em;
   font-family: 'Work Sans', sans-serif;
+  color: black;
 }
 
 nav{
@@ -22,12 +23,17 @@ nav{
 nav>ul{
   text-align: right;
 }
+h1{
+  text-align: left;
+}
+
 ul>li{
   display: inline-block;
   flex: auto;
+  padding:3%;
 }
 ul>li>a{
-   padding: 3%;
+   padding: 10%;
    text-decoration: none;
-   color:  rgba(255, 255, 255, 0.733);
+   color:  rgba(14, 9, 9, 0.733);
 } 
