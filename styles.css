@@ -3,37 +3,105 @@
   top: 0;
   bottom: 0;
   left: 0;
-  background-image: url('https://thumbs.dreamstime.com/b/black-doctor-laptop-exclaiming-happiness-over-white-black-doctor-white-robe-laptop-exclaiming-happiness-over-white-180145456.jpg)');
-  background-repeat: no-repeat;
+   background-repeat: no-repeat;
   background-size: cover;
+  background-color: rgb(100, 112, 146);
+  font-style: italic;
 }
 
 body{
   font-size: 1.3em;
   font-family: 'Work Sans', sans-serif;
   color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-size: 20px;
 }
 
 nav{
   margin: 0 auto;
-  padding: 0.1% 0;
+  padding: 2%;
   margin-right: 0;
+  background-image: url("https://i.pinimg.com/originals/c8/6a/07/c86a076b2d79cdd05f87c5044dfbc51d.jpg")
 }
 
 nav>ul{
-  text-align: right;
+  
+ul>li{
+  display: flex;
+  flex: auto;
+  padding: 20%;
+  font-size: 20px;
+}
+ul>li>a{
+   padding: 20%
+   text-decoration: none;
+   color:  rgba(41, 100, 54, 0.733);
+}
+.row {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+.column::after {
+  content: "";
+  clear: both;
+  display: float ;
+}
+#contacts {
+  font-size: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("https://i.pinimg.com/originals/c8/6a/07/c86a076b2d79cdd05f87c5044dfbc51d.jpg");
+}
+#home{
+  display: flex;
+  padding: 2%;
+  text-align: center;
+}
+#about{
+  display: flex
+}.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-twitter {
+  color: white;
+  background-color: #00acee;
+}
+
+.fa-google {
+  color: white;
+  background-color: #00acee;
+}
+
+.fa-facebook {
+  color: white;
+  background-color: #00acee;
+}
+
+.fa-instagram {
+  color: white;
+  background-color: #00acee;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+a{
+  padding: 20px;
 }
 h1{
   text-align: left;
+  text-shadow: whitesmoke;
 }
-
-ul>li{
-  display: inline-block;
-  flex: auto;
-  padding:3%;
-}
-ul>li>a{
-   padding: 10%;
-   text-decoration: none;
-   color:  rgba(14, 9, 9, 0.733);
-} 
